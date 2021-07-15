@@ -1,0 +1,40 @@
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color:lightskyblue;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+  }
+
+  p{
+    text-align: center;
+    height: auto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .col-2{
+      background-color: lightgray;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+
+  #patientId{
+    min-height: 50px;
+    border:2px solid black;
+  }
+
+  #patientSymptoms{
+    min-height: 100px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+  }
